@@ -1,0 +1,23 @@
+body{
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+}
+
+header img{
+    opacity: 0.8;
+    border-width: thick;
+    border-radius: 150px; 
+    border-color: purple;
+}
+footer{
+    background-color: white;
+}
+.friend{
+    width: 120px;
+    length: 50px;
+}

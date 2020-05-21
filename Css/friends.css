@@ -1,23 +1,48 @@
-body{
-    background-color: lightskyblue;
+body{font-family: Helvetica, Arial, sans-serif;
     margin: 0;
-}
-
-header{
-    background-color: white;
-    text-align: center;
-}
-
-header img{
-    opacity: 0.8;
-    border-width: thick;
-    border-radius: 150px; 
-    border-color: purple;
+    line-height: 30px;
 }
 footer{
-    background-color: white;
+    background-color: #0067AB;
+    text-align: center;
+    padding: 50px;
+}
+main{
+    max-width: 800px;
+padding-left: 50px;
+margin: 0 auto;
+}
+header{
+background-color: #0067AB;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+iframe{
+    padding-left: 120px;
+}
+header img{
+    border: 8px solid #5DADE2;
+    border-radius: 75px;
+}
+
+p{
+font-size: 20px;
+}
+
+h1, h2{
+    font-size: 30px;   
+    font-family: 'Permanent Marker', cursive;
+}
+a{
+    color: #5DADE2;
+}
+a:hover{
+    background-color:#0067AB;
+    color:white;
 }
 .friend{
-    width: 120px;
-    length: 50px;
+    width: 40px;
+    border-radius: 10px
 }
+

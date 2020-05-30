@@ -3,7 +3,7 @@ body{font-family: Helvetica, Arial, sans-serif;
     line-height: 30px;
 }
 footer{
-    background-color: #0067AB;
+    background-color: whitesmoke;
     text-align: center;
     padding: 50px;
 }
@@ -13,18 +13,18 @@ padding-left: 50px;
 margin: 0 auto;
 }
 header{
-background-color: #0067AB;
+background-color: whitesmoke;
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-iframe{
-    padding-left: 120px;
-}
+
 header img{
-    border: 8px solid #5DADE2;
-    border-radius: 75px;
+    width: 600px;
+    transform: rotate(7deg);
+    padding-right: 50px;
+
 }
 
 p{
@@ -33,7 +33,7 @@ font-size: 20px;
 
 h1, h2{
     font-size: 30px;   
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'gabriel_weiss_friends_fontRg','Permanent Marker', cursive;
 }
 a{
     color: #5DADE2;
@@ -41,6 +41,10 @@ a{
 a:hover{
     background-color:#0067AB;
     color:white;
+}
+
+li{
+    list-style-type: none;
 }
 .friend{
     width: 40px;
